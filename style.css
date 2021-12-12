@@ -1,0 +1,18 @@
+h4{
+    font-size: 25px;
+}
+
+.btn-success:hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name: color_gradient;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color_gradient{
+    from{box-shadow: 1px 1px 50px lightblue;}
+    to{box-shadow: 1px 1px 50px darkslateblue;}
+}
